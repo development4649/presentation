@@ -1,0 +1,36 @@
+偽手順
+LINEログイン画面、認証画面は省略
+2/2は友だちを追加しましょう画面なので、スキップ
+
+本手順
+https://developers.line.biz/en/
+にアクセス
+LINEでログイン後、開発者情報の登録
+名前とニックネームの入力が求められる
+
+Messaging APIを選択する
+LINEヤフーBusinessを友だちに追加はしない
+
+アクセスできるユーザーは全員に変更する（LINEからのメッセージを受け取れるようにするため）
+
+LINE Developersに戻り、「Practice」を選択
+
+LINE Developersの方にWebhook URLを貼り付けないと、公式アカウントと連携できない様である。（LINE Official Accountの方では上手くいかない）
+また、チャンネルアクセストークンもDevelopersの方で発行しなければならない。
+
+
+プロバイダー
+↓
+チャンネル（サービス）
+の関係
+ビジネスマネージャーとは、企業がデータを蓄積し、活用するもの？
+
+4.の権限付与は最終画面は縦長で1枚に収まっていないだけ
+
+Gemini APIキー発行元
+https://aistudio.google.com/
+「Get started」を押すとログイン画面へ
+初回ログイン時は、同意を求められる
+
+gemini-2.5-flashは新規でアクセスすることができなくなったらしい
+https://ai.google.dev/gemini-api/docs/changelog?hl=ja
